@@ -21,3 +21,7 @@
 > prelen<-100
 > final<-seq(102,100,length.out=9)
 > final
+
+
+>output<-c(x,y,z,final)
+>output
