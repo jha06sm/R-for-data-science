@@ -1,0 +1,7 @@
+#Repeat the vector c(-1,3,-5,7,-9) twice, with each element repeated 10 times, and store the
+result. Display the result sorted from largest to smallest.
+
+> z<-rep(c(-1,3,-5,7,-9),times=2,each=10)
+> z
+> output<-sort(z,decreasing = TRUE)
+> output
