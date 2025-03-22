@@ -1,0 +1,8 @@
+> # 11. Replace first and all occurrences of "apple"
+> fruit_text <- "apple, apple, and apple"
+> single_replace <- sub("apple", "orange", fruit_text)
+> all_replace <- gsub("apple", "orange", fruit_text)
+> print(single_replace)
+[1] "orange, apple, and apple"
+> print(all_replace)
+[1] "orange, orange, and orange"
