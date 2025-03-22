@@ -1,0 +1,4 @@
+# 2. Function to return logical vector indicating negative elements
+is_negative <- function(vec) {
+  return(vec < 0)
+}
