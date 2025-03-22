@@ -1,0 +1,9 @@
+> # 5. Demonstrate vector recycling with addition
+> vec_short <- c(1, 2, 3, 4)
+> vec_long <- 1:10
+> sum_result <- vec_short + vec_long
+Warning message:
+In vec_short + vec_long :
+  longer object length is not a multiple of shorter object length
+> print(sum_result)
+ [1]  2  4  6  8  6  8 10 12 10 12
