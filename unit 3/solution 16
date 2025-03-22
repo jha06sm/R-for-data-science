@@ -1,0 +1,6 @@
+> # 16. Demonstrate any() and all() functions
+> log_vec2 <- c(FALSE, TRUE, FALSE, TRUE)
+> print(any(log_vec2)) # Returns TRUE because at least one element is TRUE
+[1] TRUE
+> print(all(log_vec2)) # Returns FALSE because not all elements are TRUE
+[1] FALSE
