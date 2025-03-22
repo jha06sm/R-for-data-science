@@ -1,0 +1,19 @@
+> # 4. Create a 3x4 matrix from a logical vector and compare with numeric matrix
+> log_matrix <- matrix(rep(c(TRUE, FALSE, TRUE, FALSE), length.out = 12), nrow = 3, ncol = 4)
+> num_matrix <- matrix(1:12, nrow = 3, ncol = 4)
+> comparison <- log_matrix == num_matrix
+> print(log_matrix)
+      [,1]  [,2]  [,3]  [,4]
+[1,]  TRUE FALSE  TRUE FALSE
+[2,] FALSE  TRUE FALSE  TRUE
+[3,]  TRUE FALSE  TRUE FALSE
+> print(num_matrix)
+     [,1] [,2] [,3] [,4]
+[1,]    1    4    7   10
+[2,]    2    5    8   11
+[3,]    3    6    9   12
+> print(comparison)
+      [,1]  [,2]  [,3]  [,4]
+[1,]  TRUE FALSE FALSE FALSE
+[2,] FALSE FALSE FALSE FALSE
+[3,] FALSE FALSE FALSE FALSE
