@@ -1,0 +1,8 @@
+> # 12. Convert character vector to factor
+> gender_vector <- c("male", "female", "male", "female")
+> gender_factor <- factor(gender_vector)
+> print(gender_factor)
+[1] male   female male   female
+Levels: female male
+> print(levels(gender_factor))
+[1] "female" "male"  
