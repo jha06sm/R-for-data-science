@@ -2,3 +2,7 @@
 is_negative <- function(vec) {
   return(vec < 0)
 }
+
+# Example usage
+num_vec <- c(-3, 5, -1, 7, 0, -8)
+print(is_negative(num_vec))
