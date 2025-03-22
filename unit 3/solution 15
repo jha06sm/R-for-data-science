@@ -1,0 +1,12 @@
+> # 15. Function to bin numeric vector into "Low", "Medium", "High"
+> bin_numeric <- function(vec) {
++     return(cut(vec, breaks = c(-Inf, 5, 15, Inf), labels = c("Low", "Medium", "High")))
++ }
+> 
+> # Example usage
+> numeric_values <- c(2, 7, 14, 20, 3, 9)
+> binned_result <- bin_numeric(numeric_values)
+> print(binned_result)
+[1] Low    Medium Medium High   Low    Medium
+Levels: Low Medium High
+> 
