@@ -1,0 +1,4 @@
+> # 9. Concatenate strings with hyphens
+> concatenated_string <- paste("Data", "Science", "R", sep = "-")
+> print(concatenated_string)
+[1] "Data-Science-R"
