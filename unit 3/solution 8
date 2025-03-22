@@ -1,0 +1,8 @@
+> # 8. String operations with nchar() and substring extraction
+> text <- "Hello World! Welcome to R programming"
+> char_count <- nchar(text)
+> substring_text <- substr(text, 27, nchar(text))
+> print(char_count)
+[1] 37
+> print(substring_text)
+[1] "programming"
