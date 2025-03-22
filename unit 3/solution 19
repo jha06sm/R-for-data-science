@@ -1,0 +1,5 @@
+> # 19. Compare two strings alphabetically
+> string1 <- "apple"
+> string2 <- "Banana"
+> print(string1 < string2) # TRUE because lowercase letters come after uppercase in ASCII
+[1] TRUE
