@@ -1,0 +1,6 @@
+> # 14. Extract "female" entries from a gender factor
+> gender <- factor(c("male", "female", "female", "male", "female"))
+> females <- gender[gender == "female"]
+> print(females)
+[1] female female female
+Levels: female male
