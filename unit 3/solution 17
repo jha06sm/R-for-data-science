@@ -1,0 +1,9 @@
+> # 17. Logical operations on two logical vectors
+> log_vec3 <- c(TRUE, FALSE, TRUE, FALSE)
+> log_vec4 <- c(FALSE, FALSE, TRUE, TRUE)
+> print(log_vec3 & log_vec4) # Logical AND
+[1] FALSE FALSE  TRUE FALSE
+> print(log_vec3 | log_vec4) # Logical OR
+[1]  TRUE FALSE  TRUE  TRUE
+> print(!log_vec3) # Logical NOT
+[1] FALSE  TRUE FALSE  TRUE
