@@ -1,0 +1,7 @@
+> # 18. Replace values less than mean with NA
+> num_vec2 <- c(10, 20, 5, 15, 30)
+> mean_val <- mean(num_vec2)
+> num_vec2[num_vec2 < mean_val] <- NA
+> print(num_vec2)
+[1] NA 20 NA NA 30
+> 
