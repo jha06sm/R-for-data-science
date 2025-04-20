@@ -1,0 +1,5 @@
+27. Write code to plot data points with condition-based shapes and colors using ggplot.
+
+iris$Shape <- ifelse(iris$Sepal.Length > 6, 16, 17)
+ggplot(iris, aes(Sepal.Length, Sepal.Width)) +
+  geom_point(aes(color = Species, shape = as.factor(Shape)))
