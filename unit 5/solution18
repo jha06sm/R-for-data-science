@@ -1,0 +1,5 @@
+18. Demonstrate adding a legend manually using ggplot2.
+
+ggplot(df, aes(x, y, color = highlight)) +
+  geom_point() +
+  scale_color_manual(values = c("TRUE" = "red", "FALSE" = "gray"), name = "Above Zero")
